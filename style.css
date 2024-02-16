@@ -1,0 +1,58 @@
+body {
+    background-color: #121212; /* Darker background color */
+    color: #ffffff; /* White font color */
+}
+
+.navbar {
+    background-color: #212121; /* Darker navbar background color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White font color for navbar links */
+}
+
+.jumbotron {
+    background-color: #212121; /* Darker jumbotron background color */
+}
+
+.jumbotron h1,
+.jumbotron p {
+    text-shadow: 2px 2px 4px #ff0000; /* Adding glowing effect to text */
+}
+
+#about,
+#projects,
+#contact {
+    background-color: #121212; /* Darker section background color */
+    color: #ffffff; /* White font color for sections */
+}
+
+footer {
+    background-color: #212121; 
+}
+
+}
+
+.navbar {
+  background-color: #c0c0c0;
+}
+.card-img-top {
+  height: 300px;
+  border-radius: 10px;
+
+}
+.card-text{
+  font-family: Britannic Bold;
+  color: black;
+}
+.rounded-circle {
+  margin-top: 85px;
+}
+h3{
+  margin-top: 85px;
+
+}
+h2{
+  margin-top: 85px;
+}
