@@ -29,31 +29,30 @@ body {
 }
 
 footer {
-    background-color: #212121; /* Darker footer background color */
+    background-color: #212121; 
+}
+
 }
 
 .navbar {
-    background-color: #c0c0c0; /* Lighter navbar background color */
+  background-color: #c0c0c0;
 }
-
 .card-img-top {
-    height: 300px;
-    border-radius: 10px;
-}
+  height: 300px;
+  border-radius: 10px;
 
-.card-text {
-    font-family: 'Britannic Bold', sans-serif; /* Added fallback font family */
-    color: black; /* Changed font color to black */
 }
-
+.card-text{
+  font-family: Britannic Bold;
+  color: black;
+}
 .rounded-circle {
-    margin-top: 85px;
+  margin-top: 85px;
 }
+h3{
+  margin-top: 85px;
 
-h3 {
-    margin-top: 85px;
 }
-
-h2 {
-    margin-top: 85px;
+h2{
+  margin-top: 85px;
 }
