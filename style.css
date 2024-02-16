@@ -1,83 +1,59 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body Styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+    background-color: #121212; /* Darker background color */
+    color: #ffffff; /* White font color */
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
+.navbar {
+    background-color: #212121; /* Darker navbar background color */
 }
 
-/* Header Styles */
-header {
-  background: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White font color for navbar links */
 }
 
-header h1 {
-  font-size: 36px;
+.jumbotron {
+    background-color: #212121; /* Darker jumbotron background color */
 }
 
-/* Navigation Styles */
-nav ul {
-  list-style: none;
-  margin-top: 20px;
+.jumbotron h1,
+.jumbotron p {
+    text-shadow: 2px 2px 4px #ff0000; /* Adding glowing effect to text */
 }
 
-nav ul li {
-  display: inline;
+#about,
+#projects,
+#contact {
+    background-color: #121212; /* Darker section background color */
+    color: #ffffff; /* White font color for sections */
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-}
-
-/* Section Styles */
-section {
-  padding: 20px 0;
-}
-
-/* Portfolio Item Styles */
-.portfolio-item {
-  margin-bottom: 20px;
-}
-
-.portfolio-item img {
-  max-width: 100%;
-}
-
-/* Footer Styles */
 footer {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
+    background-color: #212121; /* Darker footer background color */
 }
 
-footer p {
-  font-size: 14px;
+.navbar {
+    background-color: #c0c0c0; /* Lighter navbar background color */
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 24px;
-  }
+.card-img-top {
+    height: 300px;
+    border-radius: 10px;
+}
 
-  nav ul li a {
-    padding: 10px;
-  }
+.card-text {
+    font-family: 'Britannic Bold', sans-serif; /* Added fallback font family */
+    color: black; /* Changed font color to black */
+}
+
+.rounded-circle {
+    margin-top: 85px;
+}
+
+h3 {
+    margin-top: 85px;
+}
+
+h2 {
+    margin-top: 85px;
 }
